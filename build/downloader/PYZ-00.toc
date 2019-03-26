@@ -20,6 +20,10 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
    'PYMODULE'),
+  ('typing',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
+   'PYMODULE'),
   ('fnmatch',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
@@ -480,6 +484,10 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
    'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
+   'PYMODULE'),
   ('_threading_local',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
@@ -527,14 +535,6 @@
   ('tracemalloc',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
-   'PYMODULE'),
-  ('typing',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
    'PYMODULE'),
   ('tkinter.messagebox',
    'c:\\users\\mirza jahangir '
