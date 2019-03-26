@@ -17,7 +17,7 @@ def main():
     percent = ('{0:.1f}').format(current*100)
     progress = int(50*current)
     status = '█' * progress + '-' * (50 - progress)
-    sys.stdout.write('downloading video\n ↳ |{bar}| {percent}%\r'.format(bar=status, percent=percent)) #rm string
+    sys.stdout.write('|\n |{bar}| {percent}%\r'.format(bar=status, percent=percent)) #rm string
     sys.stdout.flush()
 
   youtube.register_on_progress_callback(show_progress_bar)

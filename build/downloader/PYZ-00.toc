@@ -12,29 +12,17 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\datetime.py',
    'PYMODULE'),
-  ('stringprep',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('typing',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
    'PYMODULE'),
-  ('fnmatch',
+  ('stringprep',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
    'PYMODULE'),
-  ('struct',
+  ('tracemalloc',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('__future__',
    'c:\\users\\mirza jahangir '
@@ -51,6 +39,10 @@
   ('inspect',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\os.py',
    'PYMODULE'),
   ('cmd',
    'c:\\users\\mirza jahangir '
@@ -207,6 +199,10 @@
   ('tempfile',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
    'PYMODULE'),
   ('tty',
    'c:\\users\\mirza jahangir '
@@ -400,6 +396,10 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\shutil.py',
    'PYMODULE'),
+  ('selectors',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
+   'PYMODULE'),
   ('socket',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\socket.py',
@@ -432,9 +432,33 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
    'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
+   'PYMODULE'),
   ('logging',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
    'PYMODULE'),
   ('unittest.case',
    'c:\\users\\mirza jahangir '
@@ -443,30 +467,6 @@
   ('unittest.suite',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\suite.py',
-   'PYMODULE'),
-  ('unittest.loader',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\loader.py',
-   'PYMODULE'),
-  ('unittest.runner',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\runner.py',
-   'PYMODULE'),
-  ('unittest.main',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\main.py',
-   'PYMODULE'),
-  ('unittest.signals',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\signals.py',
-   'PYMODULE'),
-  ('unittest',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\__init__.py',
-   'PYMODULE'),
-  ('doctest',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\doctest.py',
    'PYMODULE'),
   ('stat',
    'c:\\users\\mirza jahangir '
@@ -480,41 +480,41 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\posixpath.py',
    'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\mirza jahangir '
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\main.py',
+   'PYMODULE'),
   ('signal',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
    'PYMODULE'),
-  ('contextlib',
+  ('unittest.signals',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\signals.py',
    'PYMODULE'),
-  ('_threading_local',
+  ('unittest',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\__init__.py',
    'PYMODULE'),
-  ('threading',
+  ('struct',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
-   'PYMODULE'),
-  ('selectors',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
-   'PYMODULE'),
-  ('subprocess',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
-   'PYMODULE'),
-  ('os',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\os.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
    'PYMODULE'),
   ('gettext',
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
-   'PYMODULE'),
-  ('copy',
-   'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
    'PYMODULE'),
   ('textwrap',
    'c:\\users\\mirza jahangir '
@@ -524,17 +524,17 @@
    'c:\\users\\mirza jahangir '
    'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\argparse.py',
    'PYMODULE'),
-  ('pprint',
+  ('doctest',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\doctest.py',
    'PYMODULE'),
-  ('pickle',
+  ('_py_abc',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('copy',
    'c:\\users\\mirza jahangir '
-   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
+   'baig\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
    'PYMODULE'),
   ('tkinter.messagebox',
    'c:\\users\\mirza jahangir '
